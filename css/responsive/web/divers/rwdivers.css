@@ -1,0 +1,40 @@
+@media screen and (min-width: 991px){
+    .button-container{
+        justify-content: flex-start;
+    }
+    .accueil-portfolio{
+        max-width: 100%;
+    }
+    .accueil-portfolio > .card{
+        max-height: 630px;
+    }
+    .accueil-portfolio .card {
+        display: flex;
+        flex-direction: row;
+    }
+    .accueil-portfolio .card > div:first-child{
+        padding: 58px 64px;
+    }
+    .accueil-portfolio .card p{
+        font-size: 16px;
+        margin: 0 0 32px 0;
+     white-space: normal;
+      overflow: visible;
+      text-overflow: clip;
+      display: block;
+      -webkit-line-clamp: initial;
+      -webkit-box-orient: horizontal;
+    }
+    .accueil-portfolio .card h3{
+        font-size: 38px;
+    }
+    .accueil-portfolio .button-container{
+        justify-content: center;
+    }
+    .accueil-portfolio .button-container a{
+        padding: 26px 38px;
+    }
+    footer>div:first-child>div:first-child{
+        width: auto;
+    }
+}

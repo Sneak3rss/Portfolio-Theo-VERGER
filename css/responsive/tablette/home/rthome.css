@@ -1,0 +1,86 @@
+@media screen and (min-width: 767px){
+    .nav-container{
+        margin: 24px auto;
+    }
+    .nav-container nav{
+        display: block;
+    }
+
+    .nav-container nav ul{
+        padding-inline-start: 0px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .nav-container nav a{
+        color: #0b0b0b;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    div.hamburger-menu{
+        display: none;
+    }
+
+    .icon-home{
+        height: 52px;
+        width: 52px;
+    }
+    .icon-contact{
+        height: 52px;
+    }
+
+    .home > div{
+        max-width: 600px;
+    }
+    .home h1{
+        font-size: 52px;
+    }
+    .button-container a{
+        font-size: 18px;
+    }
+    .mesServices{
+        max-width: 1300px;
+        padding: 120px 0px 200px 0px;
+    }
+    .mesServices > div > h2{
+        font-size: 48px;
+        margin: auto 20px 16px 20px;
+    }
+    .mesServices > div > p{
+        font-size: 18px;
+    }
+    .mesServices .card-container{
+        width: 100%;
+        flex-direction: row;
+        gap: 32px;
+        margin: 0;
+        padding: 0 20px 0 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mesServices .card-container > a,
+    .mesServices .card-contact{
+        width: 45%;
+    }
+    .mesServices .card-contact h2,
+    .mesServices .card_description h2{
+        font-size: 22px;
+    }
+    .mesServices .card-contact p,
+    .mesServices .card_description p{
+        font-size: 18px;
+    }
+    footer>div:first-child{
+        justify-content: space-evenly;
+    }
+    footer>div:first-child{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer>div:first-child>div:first-child{
+        width: 100%;
+    }
+}

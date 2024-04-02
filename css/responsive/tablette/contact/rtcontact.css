@@ -1,0 +1,63 @@
+@media screen and (min-width: 767px){
+    .nav-container{
+        margin: 24px auto;
+    }
+    .nav-container nav{
+        display: block;
+    }
+    .nav-container nav ul{
+        padding-inline-start: 0px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .nav-container nav a{
+        color: #0b0b0b;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    div.hamburger-menu{
+        display: none;
+    }
+    .icon-home{
+        height: 52px;
+        width: 52px;
+    }
+    .icon-contact{
+        height: 52px;
+    }
+   .balise-container{
+       margin: 0 0 32px 0;
+    }
+   footer>div:first-child{
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer>div:first-child>div:first-child{
+        width: 100%;
+    }
+    section.contact h1{
+        font-size: 64px;
+        margin: 0 0 16px 0;
+    }
+    section.contact p{
+        font-size: 18px;
+        margin: 0 0 32px 0;
+    }
+    .container{
+        display: flex;
+    }
+    .container:not(:last-child){
+        gap: 32px 24px;
+    }
+    .container .small-container{
+        width: 100%;
+    }
+
+    section.contact .button-container input{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,34 @@
+@media screen and (min-width: 479px){
+    .nav-container .right {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    .nav-container .right a{
+        display: block;
+    }
+    .accueil-portfolio > h2{
+        font-size: 32px;
+    }
+    .accueil-portfolio .card > div:first-child{
+        padding: 48px 32px;
+    }
+    .accueil-portfolio .card h3{
+        font-size: 26px;
+    }
+    .balise-container{
+        margin: 0 0 26px 0;
+    }
+    section.contact h1{
+        font-size: 40px;
+    }
+    section.contact p{
+        margin: 0 0 26px 0;
+    }
+    .contact-container{
+        font-size: 18px;
+    }
+    .form-contact{
+        padding: 45px 30px;
+    }
+}

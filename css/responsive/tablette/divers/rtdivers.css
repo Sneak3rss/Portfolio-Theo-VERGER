@@ -1,0 +1,58 @@
+@media screen and (min-width: 767px){
+    .nav-container{
+        margin: 24px auto;
+    }
+    .nav-container nav{
+        display: block;
+    }
+    .nav-container nav ul{
+        padding-inline-start: 0px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .nav-container nav a{
+        color: #0b0b0b;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    div.hamburger-menu{
+        display: none;
+    }
+    .icon-home{
+        height: 52px;
+        width: 52px;
+    }
+    .icon-contact{
+        height: 52px;
+    }
+    .accueil-portfolio{
+        max-width: 600px;
+   }
+   .accueil-portfolio > h2{
+       font-size: 48px;
+   }
+   .accueil-portfolio .card > div:first-child{
+       padding: 48px 64px;
+   }
+   .accueil-portfolio .card h3{
+       font-size: 32px;
+   }
+   .accueil-portfolio .card p,
+   .accueil-portfolio .card span.link{
+       font-size: 18px;
+   }
+   .balise-container{
+       margin: 0 0 32px 0;
+   }
+   footer>div:first-child{
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer>div:first-child>div:first-child{
+        width: 100%;
+    }
+}

@@ -1,0 +1,40 @@
+@media screen and (min-width: 991px){
+    .about{
+        padding: 130px 0 250px 0;
+    }
+    .button-container{
+        justify-content: flex-start;
+    }
+    .bk_black .mon-histoire {
+        padding: 240px 20px;
+    }
+    .mon-histoire{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        max-width: 1210px;
+        gap: 40px;
+    }
+    .mon-histoire>div{
+        width: 50%;
+    }
+    .mon-histoire h2{
+        font-size: 51px;
+        text-align: left;
+    }
+    .mon-histoire img{
+        max-width: 500px;
+    }
+    
+    .cv{
+        padding: 240px 20px;
+    }
+    .cv h2{
+        font-size: 52px;
+    }
+    .cv h3{
+        font-size: 28px;
+    }
+    footer>div:first-child>div:first-child{
+        width: auto;
+    }
+}
