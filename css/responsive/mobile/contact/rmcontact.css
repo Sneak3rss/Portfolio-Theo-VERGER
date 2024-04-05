@@ -7,15 +7,6 @@
     .nav-container .right a{
         display: block;
     }
-    .accueil-portfolio > h2{
-        font-size: 32px;
-    }
-    .accueil-portfolio .card > div:first-child{
-        padding: 48px 32px;
-    }
-    .accueil-portfolio .card h3{
-        font-size: 26px;
-    }
     .balise-container{
         margin: 0 0 26px 0;
     }
