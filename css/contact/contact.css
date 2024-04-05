@@ -349,7 +349,7 @@ section.contact p{
 	display: flex;
 	flex-direction: column;
     justify-content: center;
-	padding: 40px 24px;
+	padding: 20px 24px;
 	border: solid 3px #0b0b0b;
 	border-radius: 24px;
 }
