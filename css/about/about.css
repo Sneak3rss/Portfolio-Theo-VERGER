@@ -307,6 +307,7 @@ label.hamburger-menu input:checked{
 .mon-histoire img{
 	max-width: 100%;
     display: flex;
+	justify-content: center;
 }
 .mon-histoire p:first-child::first-letter{
 	font-size: 51px;
